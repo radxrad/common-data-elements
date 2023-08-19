@@ -1,0 +1,13 @@
+name: common-data-elements 
+
+channels:
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - python=3.11
+  - jupyterlab=4.0.5
+  - jupyter-offlinenotebook
+  - pandas
+  - openpyxl
+  - black
