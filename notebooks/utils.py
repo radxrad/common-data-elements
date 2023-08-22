@@ -170,8 +170,9 @@ def check_field_types(data_elements):
     if len(invalid_field_types) > 0:
         print(f"ERROR: Invalid Field Type: {invalid_field_types}")
         print(f"INFO : Allowed Field Types: {allowed_types}")
+        return list(invalid_field_types)
         
-    return invalid_field_types
+    return ""
 
 
 def check_required_fields(data_elements):
@@ -180,7 +181,9 @@ def check_required_fields(data_elements):
     if len(missing_fields) > 0:
         print(f"ERROR: Data field missing: {missing_fields}")
         print(f"INFO : Extra fields: {fields - required_fields}")
-    return missing_fields
+        return missing_fields
+ 
+    return ""
         
 
 def download_excel_and_parse_column_names(excel_file_name):
