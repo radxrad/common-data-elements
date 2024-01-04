@@ -1,0 +1,44 @@
+filename,utf8_encoded,parse_error,missing_fields,empty_fields,invalid_field_types,empty_cols,empty_rows
+rad_015_899-01_July2022NobleWWTP_DICT_origcopy_v1.csv,False,False,,['Field Type'],,14,601
+rad_015_949_01_CU.TRACES.20220707_DICT_origcopy_v1.csv,True,False,,,,0,0
+Rad_015-893-01_alphanum_DICT_origcopy_v1.csv,False,False,,,,0,0
+rad_020_841-01_smFET_DICT_origcopy_v1.csv,True,False,,['Field Label'],,0,0
+rad_023_610-01_SPITS MISC_DICT_origcopy_v1.csv,True,False,,"['Section Header', 'Field Type', 'Field Label']",,16363,16361
+rad_017_812-01_Chemical_DICT_origcopy_v1.csv,True,False,,"['Variable / Field Name', 'Section Header', 'Field Label']",,0,0
+rad_023_619-01_connect_DICT_origcopy_v1.csv,False,False,,['Field Type'],,6,0
+rad_017_775-01_COVIDVOC_DICT_origcopy_v1.csv,True,False,,,,0,953
+rad_023_593-01_DICT_bcmaicorekids_origcopy_v1.csv,False,False,,['Field Label'],"['integr', 'N/A Exeption']",0,0
+rad_014_345_01_rolosense_DICT_origcopy_v1.csv,True,False,"{'Field Type', 'Section Header', 'Field Note', 'CDE Reference', 'Field Label', 'Choices, Calculations, OR Slider Labels', 'Unit', 'Variable / Field Name'}","['Variable / Field Name', 'Section Header', 'Field Type', 'Field Label']",,11,0
+rad_017_812-01_07012021to09302021_DICT_origcopy_v1.csv,True,False,,['Field Label'],,0,0
+rad_015_949_01_CU.TRACES.20220615_DICT_origcopy_v1.csv,True,False,,,,0,0
+rad_022_578-01_COVID6_DICT_origcopy_v1.csv,False,False,"{'Field Type', 'Section Header', 'Field Note', 'CDE Reference', 'Field Label', 'Choices, Calculations, OR Slider Labels', 'Unit', 'Variable / Field Name'}","['Variable / Field Name', 'Section Header', 'Field Type', 'Field Label']",,0,0
+rad_152_2-04S1_phase1_DICT_origcopy_v1.csv,True,False,{'Unit'},['Section Header'],"['descriptive', 'notes']",2,0
+rad_023_593-01_bcmaicorekids_DICT_origcopy_v1.csv,False,False,,['Field Label'],"['integr', 'N/A Exeption']",0,0
+rad_016_526-01_MASCUP_DICT_origcopy_v1.csv,True,False,,,,0,0
+rad_023_591-01_DICT_Clinical_origcopy_v1.csv,False,False,,,,0,0
+rad_018_778-01_ucla_80521_DICT_origcopy_v1.csv,True,False,,,,0,0
+rad_017_795-01_breath_DICT_origcopy_v1.csv,True,False,,,,0,0
+rad_035_852_02_DeMauro_DICT_v002_v1.csv,True,False,,"['Section Header', 'Field Type', 'Field Label']",,0,0
+rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,True,False,,,,0,0
+rad_023_591-01_Clinical_DICT_origcopy_v1.csv,False,False,,,,0,0
+rad_018_778-01_ucla_80521_DICT_V002_v1.csv,True,False,,,,0,0
+rad_014_328-01_sal001_DICT_origcopy_v1.csv,True,False,{'Variable / Field Name'},['Variable / Field Name'],,0,0
+rad_152_2-04S1_phase2_DICT_origcopy_v1.csv,False,False,"{'Section Header', 'Unit', 'CDE Reference'}","['Section Header', 'Field Type', 'Field Label']",,3,0
+rad_022_573-01_twinsburg_DICT_origcopy_v1.csv,True,False,"{'Field Type', 'Section Header', 'Field Note', 'CDE Reference', 'Field Label', 'Choices, Calculations, OR Slider Labels', 'Unit', 'Variable / Field Name'}","['Variable / Field Name', 'Section Header', 'Field Type', 'Field Label']",,0,0
+rad_022_578-01_VALID_DICT_origcopy_v1.csv,False,False,"{'Unit', 'CDE Reference'}",['Section Header'],"['tex', 'notes', 'scale', 'calc', 'test', 'slider', 'text ']",0,0
+rad_023_590-01_CHARMS-20211001_DICT_origcopy_v1.csv,False,False,,,"['calc', 'descriptive', 'notes']",0,0
+rad_014_348-01_GeauxTrace_DICT_origcopy_v1.csv,True,False,"{'Section Header', 'Field Note', 'CDE Reference', 'Field Label', 'Choices, Calculations, OR Slider Labels', 'Unit', 'Variable / Field Name'}","['Variable / Field Name', 'Section Header', 'Field Label']",,0,0
+rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,True,False,,"['Section Header', 'Field Type', 'Field Label']",,16364,23
+rad_022_578-01_COVID4_DICT_origcopy_v1.csv,False,False,"{'Unit', 'CDE Reference'}","['Section Header', 'Field Type']",,0,0
+Rad_017_787_breath_DICT_origcopy_v1.csv,True,False,,"['Field Type', 'Field Label']",,2,931
+rad_014_316-01_SNAP1_DICT_origcopy_v1.csv,True,False,,,,0,0
+rad_023_594-01_prevailmarch15_DICT_origcopy_v1.csv,True,False,"{'Unit', 'CDE Reference'}",['Section Header'],,0,0
+rad_014_348-01_GeauxTrace_DICT_origcopy_v2.csv,True,False,"{'Section Header', 'Field Note', 'CDE Reference', 'Field Label', 'Choices, Calculations, OR Slider Labels', 'Unit', 'Variable / Field Name'}","['Variable / Field Name', 'Section Header', 'Field Label']",,0,0
+rad_014_316-01_SNAP4_DICT_origcopy_v1.csv,True,False,,,,0,0
+rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,True,False,{'Variable / Field Name'},['Variable / Field Name'],,0,938
+rad_016_067-01_DICT_origcopy_v1.csv,True,False,{'Variable / Field Name'},"['Variable / Field Name', 'Section Header', 'Field Type']",,0,0
+rad_023_618-01_UCSF_DICT_origcopy_v1.csv,True,False,"{'Unit', 'Variable / Field Name'}","['Variable / Field Name', 'Section Header']",,0,0
+rad_015_893-01_RADx_DICT_origcopy_v1.csv,False,False,,,,0,0
+rad_021_829-01_Strano_DICT_origcopy_v1.csv,True,False,{'Field Type'},"['Section Header', 'Field Type', 'Field Label']",,0,0
+rad_018_793-01_Dec2021_DICT_origcopy_v1.csv,True,False,,['Field Label'],,0,0
+Rad_023_613-01_2022_DICT_origcopy_v1.csv,True,False,"{'Field Type', 'Section Header', 'Field Note', 'CDE Reference', 'Field Label', 'Choices, Calculations, OR Slider Labels', 'Variable / Field Name'}","['Variable / Field Name', 'Section Header', 'Field Type', 'Field Label']",,0,0
