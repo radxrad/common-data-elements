@@ -6,8 +6,18 @@ channels:
 
 dependencies:
   - python=3.11
-  - jupyterlab=4.0.5
-  - jupyter-offlinenotebook
+  - jupyterlab
   - pandas
   - openpyxl
+  - pyarrow
+  - titlecase
+  - levenshtein
+  - tqdm
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - python-dotenv
   - black
+  - papermill
+  - openjdk=17.0.8
+  - python-dotenv
