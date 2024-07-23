@@ -116,7 +116,7 @@ detector_aptamer_target_protein_id,Technology Metadata/Aptamer,text,UniProt acce
 detector_aptamer_target_protein_sequence,Technology Metadata/Aptamer,sequence,Protein sequence (if not available in UniProt),,,,,,,,RADx-rad DCC
 detector_aptamer_target_region,Technology Metadata/Aptamer,text,Domain or subunit name,,example: Receptor Binding Domain,,,,,,RADx-rad DCC
 detector_aptamer_kd,Technology Metadata/Aptamer,float,Dissociation constant Kd of aptamer with target,,,,,,,,RADx-rad DCC
-detector_aptamer_kd_unit,Technology Metadata/Aptamer,float,Unit of detector_aptamer_kd,,example: nM,,,,,,RADx-rad DCC
+detector_aptamer_kd_unit,Technology Metadata/Aptamer,text,Unit of detector_aptamer_kd,,example: nM,,,,,,RADx-rad DCC
 detector_aptamer_kon,Technology Metadata/Aptamer,float,On rate Kon of aptamer with target,,,,,,,,RADx-rad DCC
 detector_aptamer_kon_unit,Technology Metadata/Aptamer,text,Unit of detector_aptamer_kon,,,,,,,,RADx-rad DCC
 detector_aptamer_koff,Technology Metadata/Aptamer,float,Off rate Koff of aptamer with target,,,,,,,,RADx-rad DCC
@@ -402,7 +402,7 @@ desorption_temperature_min_unit,Technology Metadata/GCMS,text,desorption_tempera
 desorption_temperature_max,Technology Metadata/GCMS,float,Maximum (final) temperature used to desorb the VOCs,,,,,,,,RADx-rad DCC
 desorption_temperature_max_unit,Technology Metadata/GCMS,text,Unit of desorption_temperature_max,,,,,,,,RADx-rad DCC
 desorption_temperature_ramp,Technology Metadata/GCMS,float,Rate at which the temperature increases from desorption_temperature_min to desorption_temperature_max.,,,,,,,,RADx-rad DCC
-desorption_temperature_ramp_unit,Technology Metadata/GCMS,float,Unit of desorption_temperature_ramp,,,,,,,,RADx-rad DCC
+desorption_temperature_ramp_unit,Technology Metadata/GCMS,text,Unit of desorption_temperature_ramp,,,,,,,,RADx-rad DCC
 gc_injection_method,Technology Metadata/GCMS,text,GC inlet parameter that determines the amount of injected sample that enters the GC column.,,,,,,,,RADx-rad DCC
 gc_injection_method_source,Technology Metadata/GCMS,text,Source or manufacturer of the gc_injection_method,,,,,,,,RADx-rad DCC
 gc_column,Technology Metadata/GCMS,text,Manufacturer name for the GC column,,,,,,,,RADx-rad DCC
