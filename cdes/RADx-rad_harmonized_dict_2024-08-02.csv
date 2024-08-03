@@ -571,7 +571,7 @@ antigen_formulation,Sample/Antigen,text,Formulation of antigen,,"example: Lyophi
 antigen_source,Sample/Antigen,text,Supplier of antigen or publication,,example: Sino Biological,,,,,,RADx-rad DCC
 antigen_source_url,Sampe/Antigen,url,URL of supplier catalog page or publication DOI link,,example: https://www.sinobiological.com/recombinant-proteins/2019-ncov-cov-spike-40591-v08h,,,,,,RADx-rad DCC
 antigen_concentration,Sample/Antigen,float,Protein concentration,,example: 1.0,,,,,,RADx-rad DCC
-antigen_concentration_unit,Sample/Antigen,text,Unit of protein concentration,mM | uM| nM | pM | fM,example: nM,,,,,,RADx-rad DCC
+antigen_concentration_unit,Sample/Antigen,text,Unit of protein concentration,,example: nM,,,,,,RADx-rad DCC
 virus_sample_id,Sample/VQA panel,text,"Identifier for virus sample, for VQA panels this is the QR code, for BEI the catalog number",,"examples: XXXX-XXXX-XXXX-XXXX (VQA panel),  NR-52286 (BEI Resources)",,,,,,RADx-rad DCC
 virus_shortname,Sample/VQA panel,text,Short label on sample tube,,example: WA.1,,,,,,RADx-rad DCC
 virus_batch_number,Sample/VQA panel,text,Batch and or/lot number of virus sample,,,,,,,,RADx-rad DCC
