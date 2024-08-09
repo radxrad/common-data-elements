@@ -626,7 +626,7 @@ standard_antibody_source_url,Sample/Antibody,url,URL of supplier catalog page or
 study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minimum CDE
 cohort_id,Clinical,text,Identifier for groups of patients,,,,,,,,RADx-rad DCC
 date_enrolled,Clinical,date,Date when patient was enrolled in the  study and the samples were collected,,,,,,,,RADx-rad DCC
-timepoint,Clinical,integer,Which timepoint does this clinical sample pertain to?,Each participant is followed for up to 12 timepoints with one week in between each timepoint. Each timepoint corresponds to a specific smell card. There are 6 unique smell cards labeled as A-F. Each participant competes A-F in order and then repeats the cycle A-F so that each card is tested twice for a complete follow up.,,,1,12,,,RADx-rad DCC
+timepoint,Clinical,integer,Which timepoint does this clinical sample pertain to?,,Each participant is followed for up to 12 timepoints with one week in between each timepoint. Each timepoint corresponds to a specific smell card. There are 6 unique smell cards labeled as A-F. Each participant competes A-F in order and then repeats the cycle A-F so that each card is tested twice for a complete follow up.,,,,,,RADx-rad DCC
 symptom_onset_days,Clinical,integer,Number of days since the onset of symptoms when the patient's sample was collected,,,,,,,,RADx-rad DCC
 days_since_first_vaccine,Clinical,integer,Number of days since the first COVID vaccination when the patient's sample was collected,,,,,,,,RADx-rad DCC
 days_since_second_vaccine,Clinical,integer,Number of days since the second COVID vaccination when the patient's sample was collected,,,,,,,,RADx-rad DCC
