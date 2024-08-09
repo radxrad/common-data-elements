@@ -757,7 +757,7 @@ other_norm_unit,SARSCoV2 Quantification Method,category,Concentration units of t
 quality_flag,SARSCoV2 Quantification Method,category,Does this observation have quality control issues? ,Yes | No,,,,,,,NWSS_DCIPHER_Data_Dictionary_v2.0.0_20210319|https://www.cdc.gov/nwss/reporting.html
 stan_ref,SARSCoV2 Quantification Method,text,"A publication, website, or brief description of the quantitative standard material used",,,,,,,,NWSS_DCIPHER_Data_Dictionary_v2.0.0_20210319|https://www.cdc.gov/nwss/reporting.html
 inhibition_method,SARSCoV2 Quantification Method,text,"A publication, website, or brief description of the method used to evaluate molecular inhibition",,,,,,,,NWSS_DCIPHER_Data_Dictionary_v2.0.0_20210319|https://www.cdc.gov/nwss/reporting.html
-num_no_target_control,SARSCoV2 Quantification Method,integer,Number of no-template controls (NTC) per instrument run,,,,,,,,NWSS_DCIPHER_Data_Dictionary_v2.0.0_20210319|https://www.cdc.gov/nwss/reporting.html
+num_no_target_control,SARSCoV2 Quantification Method,category,Number of no-template controls (NTC) per instrument run,0 | 1 | 2 | more than 3,,,,,,,NWSS_DCIPHER_Data_Dictionary_v2.0.0_20210319|https://www.cdc.gov/nwss/reporting.html
 sample_id,Sample,text,Unique identifier for a spiked (contrived) sample,,,,,,,,RADx-rad DCC
 sample_group,Sample,text,Unique identifier for a grouping of samples or runs,,,,,,,,RADx-rad DCC
 study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minimum CDE
