@@ -1,0 +1,225 @@
+Id,Label,Section,Cardinality,Terms,Datatype,Unit,Enumeration,Notes,Provenance,SeeAlso
+nih_record_id,User ID,Identity,single,,string,,,,,
+nih_race,What is your race?,Race,single,GSSO:002199,integer,,"""0""=[American Indian or Alaska Native] |
+""1""=[Black or African American] |
+""2""=[Asian] |
+""3""=[Native Hawaiian or Other Pacific Islander] |
+""4""=[White] |
+""5""=[Middle Eastern or North African] |
+""6""=[Two or more races] |
+""97""=[Some other race] |
+""98""=[Do not know] |
+""99""=[Prefer not to answer]",,,
+nih_ethnicity,Are you of Hispanic or Latino origin? May include Spanish origin.,Ethnicity,single,NCIT:C16564,integer,,"""0""=[No, not of Hispanic or Latino origin] |
+""1""=[Yes, of Hispanic or Latino origin] |
+""97""=[Other] |
+""98""=[Don't Know] |
+""99""=[Prefer not to answer]",,,
+nih_age,What is your age?,Age,single,PATO:0000011,integer,year,,,,
+nih_sex,What is your biological sex assigned at birth?,Sex,single,PATO:0000047,integer,,"""0""=[Female] |
+""1""=[Male] |
+""2""=[Intersex] |
+""3""=[Non-binary] |
+""96""=[None of these describe me] |
+""99""=[Prefer not to answer]",,,
+nih_education_yrs,How many years of education have you completed?,Education Years,single,NCIT:C122393,decimal,year,,,,
+nih_zip,What is your zip code?,Domicile,single,"NCIT:C25720
+NCIT:C25621",string,,,,,
+nih_employment,Please specify your employment status.,Employment,single,"NCIT:C179143
+NCIT:C25172",integer,,"""0""=[Yes - Employed] |
+""1""=[No - Not Employed] |
+""2""=[Student] |
+""3""=[Keeping household] |
+""4""=[Retired] |
+""5""=[Disabled or government support] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_insurance,What kind of health insurance do you have?,Insurance Status,single,NCIT:C157356,integer,,"""0""=[None] |
+""1""=[Private] |
+""2""=[Public] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]",,,
+nih_deaf,Are you deaf or do you have serious difficulty hearing?,Disability Status,single,"SYMP:0000019
+HP:0000364",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_blind,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?",Disability Status,single,MONDO:0001941,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_memory,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?",Disability Status,single,"SYMP:0000719
+SYMP:0000543
+SYMP:0020029
+SYMP:0000817
+SYMP:0000233
+MONDO:0002039",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_walk_climb,Do you have serious difficulty walking or climbing stairs?,Disability Status,single,"NCIT:C111629
+NCIT:C175910
+",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_dress_bathe,Do you have difficulty dressing or bathing?,Disability Status,single,"NCIT:C95544
+NCIT:C131923",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_errand,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?",Disability Status,single,"NCIT:C121690
+NCIT:C95549",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_vaping_yn,Vaping use (Yes or No),Medical History,single,"NCIT:C173621
+NCIT:C68751",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_nicotine_yn,Nicotine use (Yes or No),Medical History,single,"NCIT:C691
+NCIT:C68751
+NCIT:C173060",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_alcohol_yn,Alcohol use (Yes or No),Medical History,single,"GSSO:006602
+NCIT:C81229
+NCIT:C16273
+NBO:0000131",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_asthma,Asthma,Medical History,single,MONDO:0004979,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_cancer,Cancer,Medical History,single,"MONDO:0004992
+NCIT:C9305",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_cardiovascular_disease,Cardiovascular disease,Medical History,single,MONDO:0004995,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_chronic_kidney_disease,Chronic kidney disease,Medical History,single,MONDO:0005300,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_chronic_lung_disease,Chronic lung disease,Medical History,single,MONDO:0005275,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_diabetes,Diabetes,Medical History,single,MONDO:0005015,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_hypertension,Hypertension,Medical History,single,MONDO:0005044,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_immunosuppressive_condition,Immunosuppressive condition,Medical History,single,NCIT:C178942,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_serious_mental_illness,Serious mental illness,Medical History,single,MONDO:0005084,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_sickle_cell_disease,Sickle cell disease,Medical History,single,MONDO:0017146,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_pregnancy,Pregnancy status,Medical History,single,NCIT:C69218,integer,,"""0""=[Not Pregnant] |
+""1""=[Pregnant] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]",,,
+nih_cough,Cough,Symptoms,single,SYMP:0000614,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_fever_chills,Fever or Chills,Symptoms,single,SYMP:0000613,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_diff_breath,Shortness of breath or difficulty breathing,Symptoms,single,SYMP:0019153,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_headache,Headache,Symptoms,single,SYMP:0000504,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_muscle_ache,Muscle ache,Symptoms,single,SYMP:0000626,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_olfactory,New loss of taste or smell,Symptoms,single,SYMP:0020004,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_fatigue,Excessive fatigue,Symptoms,single,SYMP:0000280,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_nausea_vomiting_diarrhea,"Nausea, vomiting, or diarrhea",Symptoms,single,"SYMP:0000458
+SYMP:0019145
+SYMP:0000570",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_abdom_pain,Abdominal pain,Symptoms,single,SYMP:0000457,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_skin_rash,Skin rash,Symptoms,single,SYMP:0000487,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_conjunctivitis,Conjunctivitis,Symptoms,single,MONDO:0003799,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don’t know] |
+""99""=[Prefer not to answer]",,,
+nih_health_status,"Would you say that (your) health in general is excellent, very good, good, fair, or poor?",Health Status,single,,integer,,"""0""=[Excellent] |
+""1""=[Very Good] |
+""2""=[Good] |
+""3""=[Fair] |
+""4""=[Poor] |
+""98""=[Don't know] |
+""99""=[Prefer not to state]",,,
+nih_height,What is your height in inches?,Health Status,single,PATO:0000119,integer,inch,,,,
+nih_weight,What is your weight in pounds?,Health Status,single,PATO:0000125,integer,pound,,,,
