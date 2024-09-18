@@ -21,4 +21,4 @@ Data elements are provided in two formats:
 **RADx-rad format Data Dictionaries**
 | File name | Description |
 |------------------------------------|-------------------------------------------------------------|
-| RADx-rad_tier1_dict_YYYY-MM-DD.csv | RADx-rad minimum plus project specific common data elements |
+| RADx-rad_harmonized_dict_YYYY-MM-DD.csv | RADx-rad minimum plus project specific common data elements |
