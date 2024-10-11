@@ -12,6 +12,8 @@ dependencies:
   - pyarrow
   - titlecase
   - levenshtein
+  - inflection
+  - pyspellchecker
   - tqdm
   - matplotlib
   - seaborn
