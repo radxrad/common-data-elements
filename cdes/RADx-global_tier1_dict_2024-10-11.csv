@@ -42,97 +42,97 @@ nih_insurance,What kind of health insurance do you have?,,Insurance Status,singl
 nih_deaf,Are you deaf or do you have serious difficulty hearing?,,Disability Status,single,SYMP:0000019|HP:0000364,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_blind,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?",,Disability Status,single,MONDO:0001941,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_memory,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?",,Disability Status,single,SYMP:0000719|SYMP:0000543|SYMP:0020029|SYMP:0000817|SYMP:0000233|MONDO:0002039,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_walk_climb,Do you have serious difficulty walking or climbing stairs?,,Disability Status,single,NCIT:C111629|NCIT:C175910,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_dress_bathe,Do you have difficulty dressing or bathing?,,Disability Status,single,NCIT:C95544|NCIT:C131923,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_errand,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?",,Disability Status,single,NCIT:C121690|NCIT:C95549,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_vaping_yn,Vaping use (Yes or No),,Medical History,single,NCIT:C173621|NCIT:C68751,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_nicotine_yn,Nicotine use (Yes or No),,Medical History,single,NCIT:C691|NCIT:C68751|NCIT:C173060,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_alcohol_yn,Alcohol use (Yes or No),,Medical History,single,GSSO:006602|NCIT:C81229|NCIT:C16273|NBO:0000131,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_asthma,Asthma,,Medical History,single,MONDO:0004979,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_cancer,Cancer,,Medical History,single,MONDO:0004992|NCIT:C9305,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_cardiovascular_disease,Cardiovascular disease,,Medical History,single,MONDO:0004995,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_chronic_kidney_disease,Chronic kidney disease,,Medical History,single,MONDO:0005300,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_chronic_lung_disease,Chronic lung disease,,Medical History,single,MONDO:0005275,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_diabetes,Diabetes,,Medical History,single,MONDO:0005015,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_hypertension,Hypertension,,Medical History,single,MONDO:0005044,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_immunosuppressive_condition,Immunosuppressive condition,,Medical History,single,NCIT:C178942,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_serious_mental_illness,Serious mental illness,,Medical History,single,MONDO:0005084,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_sickle_cell_disease,Sickle cell disease,,Medical History,single,MONDO:0017146,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_pregnancy,Pregnancy status,,Medical History,single,NCIT:C69218,integer,,"""0""=[Not Pregnant] |
 ""1""=[Pregnant] |
@@ -141,57 +141,57 @@ nih_pregnancy,Pregnancy status,,Medical History,single,NCIT:C69218,integer,,"""0
 nih_cough,Cough,,Symptoms,single,SYMP:0000614,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_fever_chills,Fever or Chills,,Symptoms,single,SYMP:0000613,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_diff_breath,Shortness of breath or difficulty breathing,,Symptoms,single,SYMP:0019153,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_headache,Headache,,Symptoms,single,SYMP:0000504,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_muscle_ache,Muscle ache,,Symptoms,single,SYMP:0000626,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_olfactory,New loss of taste or smell,,Symptoms,single,SYMP:0020004,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_fatigue,Excessive fatigue,,Symptoms,single,SYMP:0000280,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_nausea_vomiting_diarrhea,"Nausea, vomiting, or diarrhea",,Symptoms,single,SYMP:0000458|SYMP:0019145|SYMP:0000570,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_abdom_pain,Abdominal pain,,Symptoms,single,SYMP:0000457,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_skin_rash,Skin rash,,Symptoms,single,SYMP:0000487,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_conjunctivitis,Conjunctivitis,,Symptoms,single,MONDO:0003799,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_health_status,"Would you say that (your) health in general is excellent, very good, good, fair, or poor?",,Health Status,single,Thesaurus:C16669,integer,,"""0""=[Excellent] |
 ""1""=[Very Good] |
