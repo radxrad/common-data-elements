@@ -585,7 +585,7 @@ antigen_id,Sample/Antigen,text,"Protein Sequence Database id, e.g., UniProt acce
 antigen_sequence,Sample/Antigen,sequence,Protein sequence if  protein sequence database id is unavailable,,,,,,,,RADx-rad DCC
 antigen_nterminal_tag,Sample/Antigen,text,Name of tag attached to N-terminal,,example: HIS,,,,,,RADx-rad DCC
 antigen_cterminal_tag,Sample/Antigen,text,Name of tag attached to C-terminal,,example: HIS,,,,,,RADx-rad DCC
-antigen_region,Sample/Antigen,text,Domain or subunit name,,examples: S1|Receptor Binding Domain,,,,,,RADx-rad DCC
+antigen_region,Sample/Antigen,list,Domain or subunit name,,examples: S1|Receptor Binding Domain,,,,,,RADx-rad DCC
 antigen_region_start,Sample/Antigen,integer,Start residue number of region,,example: 16,,,,,,RADx-rad DCC
 antigen_region_end,Sample/Antigen,integer,End residue number of region,,example: 685,,,,,,RADx-rad DCC
 antigen_expression_system,Sample/Antigen,text,System used to express protein,,,,,,,,RADx-rad DCC

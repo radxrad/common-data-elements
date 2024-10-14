@@ -538,7 +538,7 @@ antigen_id,"Protein Sequence Database id, e.g., UniProt accession number or NCBI
 antigen_sequence,Protein sequence if  protein sequence database id is unavailable,,Sample/Antigen,single,http://edamontology.org/data:2044|Thesaurus:C268,string,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
 antigen_nterminal_tag,Name of tag attached to N-terminal,HIS,Sample/Antigen,single,MI:0340|Thesaurus:C268|GO:0141047,string,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
 antigen_cterminal_tag,Name of tag attached to C-terminal,HIS,Sample/Antigen,single,MI:0334|Thesaurus:C268|GO:0141047,string,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
-antigen_region,Domain or subunit name,S1|Receptor Binding Domain,Sample/Antigen,single,Thesaurus:C268|NCIT:C13379,string,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
+antigen_region,Domain or subunit name,S1|Receptor Binding Domain,Sample/Antigen,multiple,Thesaurus:C268|NCIT:C13379,string,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
 antigen_region_start,Start residue number of region,16,Sample/Antigen,single,Thesaurus:C268|NCIT:C13379|Thesaurus:C25431,integer,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
 antigen_region_end,End residue number of region,685,Sample/Antigen,single,Thesaurus:C268|NCIT:C13379|Thesaurus:C25496,integer,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
 antigen_expression_system,System used to express protein,,Sample/Antigen,single,https://w3id.org/reproduceme#ExpressionSystem|Thesaurus:C268,string,,,,"""-9960""=[Not Entered By Originator]",RADx-rad DCC,
