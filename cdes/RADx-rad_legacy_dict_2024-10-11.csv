@@ -48,7 +48,7 @@ health_status,Health Status,radio,"Would you say that (your) health in general i
 protocol_id,Technology Metadata,text,Unique name or identifier for biosensor protocol,,example: ddPCR_SARS-CoV-2,,,,,,RADx-rad DCC
 technology_platform,Technology Metadata,text,Abbreviation or short label for technology,,example: ddPCR,,,,,,RADx-rad DCC
 technology_description,Technology Metadata,text,Short description of technology,,example: Droplet Digital PCR,,,,,,RADx-rad DCC
-technology_reference,Technology Metadata,url,"Link to publication, preprint, or website detailing the technology",,,,,,,,RADx-rad DCC
+technology_reference,Technology Metadata,list,"Link to publication, preprint, or website detailing the technology",,,,,,,,RADx-rad DCC
 biorecognition_type,Technology Metadata,list,Type of molecular entity used for biosensor fabrication,aptamer | antibody | antigen | molecular beacon | nanobody | primer | receptor | DNA-oligonucleotide | analyte binding peptide | enzyme-substrate | trimeric assembly of viral spike protein,Multiple entities can be specified as list if biosenor uses a combination of molecular entities,,,,,,RADx-rad DCC
 target_analyte_type,Technology Metadata,list,Type of analyte(s) or target(s) to be detected,antigen|viral RNA|virus|antibody|human IgA|human RBD IgA|human IgG|human RBD IgG|human IgM|human RBD IgM| neutralizing antibody|EV RNA | human microRNA |VOC |solid binding peptide | viral protein | control,example: virus,,,,,,RADx-rad DCC
 target_analyte_name,Technology Metadata,text,Name of target molecule to be detected,,example: Nucleoprotein,,,,,,RADx-rad DCC
