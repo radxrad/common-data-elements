@@ -14,12 +14,12 @@ Data elements are provided in two formats:
 **RADx format Data Dictionaries**
 | File name | Description |
 |------------------------------------|------------------------------------|
-| RADx-global_tier1_dict_YYYY-MM-DD.csv | RADx global project data elements (Tier1) |
-| RADx-rad_tier1_dict_YYYY-MM-DD.csv | RADx-rad project minimum common data elements for patient data (Tier1) |
-| RADx-rad_tier2_dict_YYYY-MM-DD.csv | RADx-rad project specific common data elements (Tier2) |
+| RADx-global_tier1_dict_YYYY-MM-DD.csv | RADx global project data elements (Tier1 for transformcopy file) |
+| RADx-rad_tier1_dict_YYYY-MM-DD.csv | RADx-rad project minimum common data elements for patient data (Tier1 for origcopy files) |
+| RADx-rad_tier2_dict_YYYY-MM-DD.csv | RADx-rad project specific data elements (Tier2 for origcopy files) |
 
 
 **RADx-rad format Data Dictionaries**
 | File name | Description |
-|------------------------------------|-------------------------------------------------------------|
-| RADx-rad_legacy_dict_YYYY-MM-DD.csv | RADx-rad minimum plus project specific common data elements in legacy format |
+|------------------------------------|---------------------------------------------|
+| RADx-rad_legacy_dict_YYYY-MM-DD.csv | RADx-rad Tier1 and Tier 2 data elements in legacy format |
