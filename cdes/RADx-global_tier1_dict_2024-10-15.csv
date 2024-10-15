@@ -1,4 +1,4 @@
-Id,Label,Examples,Section,Cardinality,Terms,Datatype,Unit,Enumeration,Notes,MIssingValueCodes,Provenance,SeeAlso
+﻿Id,Label,Examples,Section,Cardinality,Terms,Datatype,Unit,Enumeration,Notes,MIssingValueCodes,Provenance,SeeAlso
 nih_record_id,User ID,,Identity,single,NCIT:C164337,string,,,,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_race,What is your race?,,Race,single,GSSO:002199,integer,,"""0""=[American Indian or Alaska Native] |
 ""1""=[Black or African American] |
@@ -23,15 +23,15 @@ nih_sex,What is your biological sex assigned at birth?,,Sex,single,PATO:0000047,
 ""96""=[None of these describe me] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_education_yrs,How many years of education have you completed?,,Education Years,single,NCIT:C122393,decimal,year,,,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_zip,What is your zip code?,,Domicile,single,NCIT:C25720|NCIT:C25621,string,,,,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_employment,Please specify your employment status.,,Employment,single,NCIT:C179143|NCIT:C25172,integer,,"""0""=[Yes - Employed] |
+nih_zip,What is your zip code?,,Domicile,single,NCIT:C25720 NCIT:C25621,string,,,,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
+nih_employment,Please specify your employment status.,,Employment,single,NCIT:C179143 NCIT:C25172,integer,,"""0""=[Yes - Employed] |
 ""1""=[No - Not Employed] |
 ""2""=[Student] |
 ""3""=[Keeping household] |
 ""4""=[Retired] |
 ""5""=[Disabled or government support] |
 ""97""=[Other] |
-""98""=[Don‚Äôt know] |
+""98""=[Don‚Äö√Ñ√¥t know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_insurance,What kind of health insurance do you have?,,Insurance Status,single,NCIT:C157356,integer,,"""0""=[None] |
 ""1""=[Private] |
@@ -39,7 +39,7 @@ nih_insurance,What kind of health insurance do you have?,,Insurance Status,singl
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_deaf,Are you deaf or do you have serious difficulty hearing?,,Disability Status,single,SYMP:0000019|HP:0000364,integer,,"""0""=[No] |
+nih_deaf,Are you deaf or do you have serious difficulty hearing?,,Disability Status,single,SYMP:0000019 HP:0000364,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
@@ -49,37 +49,37 @@ nih_blind,"Are you blind or do you have serious difficulty seeing, even when wea
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_memory,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?",,Disability Status,single,SYMP:0000719|SYMP:0000543|SYMP:0020029|SYMP:0000817|SYMP:0000233|MONDO:0002039,integer,,"""0""=[No] |
+nih_memory,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?",,Disability Status,single,SYMP:0000719 SYMP:0000543 SYMP:0020029 SYMP:0000817 SYMP:0000233 MONDO:0002039,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_walk_climb,Do you have serious difficulty walking or climbing stairs?,,Disability Status,single,NCIT:C111629|NCIT:C175910,integer,,"""0""=[No] |
+nih_walk_climb,Do you have serious difficulty walking or climbing stairs?,,Disability Status,single,NCIT:C111629 NCIT:C175910,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_dress_bathe,Do you have difficulty dressing or bathing?,,Disability Status,single,NCIT:C95544|NCIT:C131923,integer,,"""0""=[No] |
+nih_dress_bathe,Do you have difficulty dressing or bathing?,,Disability Status,single,NCIT:C95544 NCIT:C131923,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_errand,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?",,Disability Status,single,NCIT:C121690|NCIT:C95549,integer,,"""0""=[No] |
+nih_errand,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?",,Disability Status,single,NCIT:C121690 NCIT:C95549,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_vaping_yn,Vaping use (Yes or No),,Medical History,single,NCIT:C173621|NCIT:C68751,integer,,"""0""=[No] |
+nih_vaping_yn,Vaping use (Yes or No),,Medical History,single,NCIT:C173621 NCIT:C68751,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_nicotine_yn,Nicotine use (Yes or No),,Medical History,single,NCIT:C691|NCIT:C68751|NCIT:C173060,integer,,"""0""=[No] |
+nih_nicotine_yn,Nicotine use (Yes or No),,Medical History,single,NCIT:C691 NCIT:C68751 NCIT:C173060,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_alcohol_yn,Alcohol use (Yes or No),,Medical History,single,GSSO:006602|NCIT:C81229|NCIT:C16273|NBO:0000131,integer,,"""0""=[No] |
+nih_alcohol_yn,Alcohol use (Yes or No),,Medical History,single,GSSO:006602 NCIT:C81229 NCIT:C16273 NBO:0000131,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
@@ -89,7 +89,7 @@ nih_asthma,Asthma,,Medical History,single,MONDO:0004979,integer,,"""0""=[No] |
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_cancer,Cancer,,Medical History,single,MONDO:0004992|NCIT:C9305,integer,,"""0""=[No] |
+nih_cancer,Cancer,,Medical History,single,MONDO:0004992 NCIT:C9305,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
@@ -173,7 +173,7 @@ nih_fatigue,Excessive fatigue,,Symptoms,single,SYMP:0000280,integer,,"""0""=[No]
 ""97""=[Other] |
 ""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
-nih_nausea_vomiting_diarrhea,"Nausea, vomiting, or diarrhea",,Symptoms,single,SYMP:0000458|SYMP:0019145|SYMP:0000570,integer,,"""0""=[No] |
+nih_nausea_vomiting_diarrhea,"Nausea, vomiting, or diarrhea",,Symptoms,single,SYMP:0000458 SYMP:0019145 SYMP:0000570,integer,,"""0""=[No] |
 ""1""=[Yes] |
 ""97""=[Other] |
 ""98""=[Don't know] |
