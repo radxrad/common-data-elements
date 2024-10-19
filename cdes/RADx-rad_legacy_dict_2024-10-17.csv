@@ -187,7 +187,7 @@ capture_antigen_source_id,Technology Metadata/Antigen,text,Unique identifier or 
 capture_antigen_source_url,Technology Metadata/Antigen,url,URL of supplier catalog page or publication DOI link,,example: https://www.genscript.com/protein/Z03483-SARS_CoV_2_Spike_protein_RBD_His_Tag_.html,,,,,,RADx-rad DCC
 capture_antibody_id,Technology Metadata/Antibody,text,Unique identifier or catalog number of antibody given by supplier,,,,,,,,RADx-rad DCC
 capture_antibody_name,Technology Metadata/Antibody,text,Name of the capture antibody,,,,,,,,RADx-rad DCC
-capture_antibody_ig_type,Technology Metadata/Antibody,category,Immunoglobulin type of the capture antibody,IgA | IgG | IgM,example: IgG,,,,,,RADx-rad DCC
+capture_antibody_ig_type,Technology Metadata/Antibody,category,Immunoglobulin type of the capture antibody,IgA | IgG | IgM | IgG2a,example: IgG,,,,,,RADx-rad DCC
 capture_antibody_clonality,Technology Metadata/Antibody,category,Clonal state of the capture antibody,monoclonal | polyclonal,,,,,,,RADx-rad DCC
 capture_antibody_clone,Technology Metadata/Antibody,text,Name of the capture antibody clone,,,,,,,,RADx-rad DCC
 capture_antibody_modification,Technology Metadata/Antibody,text,Name of modification attached to the antibody,,example: SH,,,,,,RADx-rad DCC
