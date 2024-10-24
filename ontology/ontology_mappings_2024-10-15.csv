@@ -123,6 +123,7 @@ y,blank,blank role,"('blank sample role', 'blank sample', 'blank')","('An blank 
 ,box,Box,"('BOX', 'Box')","('A square or rectangular vessel, usually made of cardboard or plastic.',)",Thesaurus:C43178
 ,box,Box,(),"('A square or rectangular vessel, usually made of cardboard or plastic.',)",NCIT:C43178
 ,box,Gclm,"('DmGCLM', 'Gcsl', 'DmGCSl', 'CG4919', 'GCLm', 'GCSl', 'DmelCG4919', '4919', 'box')","('The protein-coding gene Gclm (Glutamate-cysteine ligase modifier subunit) located on the chromosome 3R mapped at 94C1-94C1.',)",NCBIGene:248194
+y,breathing,breathing,"('breathing')","('breathing',)",http://sweetontology.net/phenBiol/Breathing
 y,calculation,Calculation,"('CALCULATION', 'Calculation', 'Calculate', 'Calculated')","('The procedure or activity of determining something by mathematical or logical methods.',)",Thesaurus:C54125
 ,calculation,Calculation,"('CALCULATION', 'Calculation', 'Calculate', 'Calculated')","('The procedure or activity of determining something by mathematical or logical methods.',)",Thesaurus:C54125
 ,calculation,calculation,"('computation', 'computing')","('A calculation is a process by which a data transformation technique that involves problem solving for numbers or quantities is performed. [Allotrope]',)",http://purl.allotrope.org/ontologies/process#AFP:0003282
