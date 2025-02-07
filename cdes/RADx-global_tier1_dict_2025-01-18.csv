@@ -1,4 +1,4 @@
-﻿Id,Label,Examples,Section,Cardinality,Terms,Datatype,Unit,Enumeration,Notes,MIssingValueCodes,Provenance,SeeAlso
+Id,Label,Examples,Section,Cardinality,Terms,Datatype,Unit,Enumeration,Notes,MIssingValueCodes,Provenance,SeeAlso
 nih_record_id,User ID,,Identity,single,NCIT:C164337,string,,,,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_race,What is your race?,,Race,single,GSSO:002199,integer,,"""0""=[American Indian or Alaska Native] |
 ""1""=[Black or African American] |
@@ -31,7 +31,7 @@ nih_employment,Please specify your employment status.,,Employment,single,NCIT:C1
 ""4""=[Retired] |
 ""5""=[Disabled or government support] |
 ""97""=[Other] |
-""98""=[Don‚Äö√Ñ√¥t know] |
+""98""=[Don't know] |
 ""99""=[Prefer not to answer]",,"""-9960""=[Not Entered By Originator]",RADx Global Codebook,
 nih_insurance,What kind of health insurance do you have?,,Insurance Status,single,NCIT:C157356,integer,,"""0""=[None] |
 ""1""=[Private] |
