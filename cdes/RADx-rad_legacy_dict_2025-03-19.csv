@@ -341,7 +341,7 @@ reporter_source_name,Technology Metadata/Reporter,text,Namer of reporter given b
 reporter_source,Technology Metadata/Reporter,text,Supplier of the reporter,,,,,,,,RADx-rad DCC
 reporter_source_url,Technology Metadata/Reporter,url,URL of supplier catalog page or publication DOI link,,,,,,,,RADx-rad DCC
 substrate_id,Technology Metadata/Substrate,text,"Unique identifier common short label, or acronym of the substrate",,example: TMB,,,,,,RADx-rad DCC
-substrate_name,Technology Metadata/Substrate,text,Name of the substrate,,"example: 3,3′,5,5′-Tetramethyl[1,1′-biphenyl]-4,4′-diamine",,,,,,RADx-rad DCC
+substrate_name,Technology Metadata/Substrate,text,Name of the substrate,,"example: 3,3',5,5'-Tetramethyl[1,1'-biphenyl]-4,4'-diamine",,,,,,RADx-rad DCC
 substrate_inchi_key,Technology Metadata/Substrate,text,InChI Key of the substrate,,example: UAIUNKRWKOVEES-UHFFFAOYSA-N,,,,,,RADx-rad DCC|https://iupac.org/who-we-are/divisions/division-details/inchi/
 substrate_molecular_weight,Technology Metadata/Substrate,float,Molecular weight of the substrate,,,,,,,g/mol,RADx-rad DCC
 substrate_net_charge,Technology Metadata/Substrate,integer,Formal charge of the substrate,,,,,,,,RADx-rad DCC
